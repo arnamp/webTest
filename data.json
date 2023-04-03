@@ -1,0 +1,29 @@
+[
+{
+    "companyCode": "980f70347bc145c8a0adb4a34a76b264",
+    "deviceType": "485 Transceiver(D485ZT)",
+    "data": "02000101",
+    "deviceAlias": "RS485_2",
+    "parsedData": {
+        "dataAddressCode": null,
+        "addressCode": null,
+        "data": null,
+        "functionCode": null,
+        "retreatDuration": null,
+        "stopBit": null,
+        "dataBit": null,
+        "heartCycle": null,
+        "dataStatus": "illegal",
+        "completeData": "02000101",
+        "collectedParam": null,
+        "versionNumber": "",
+        "baudRate": null,
+        "parityBit": null,
+        "enableRetreat": null,
+        "registersNum": null,
+        "header": "02",
+        "addr": null,
+        "collectedResult": null
+    }
+}
+]

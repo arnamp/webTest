@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+
+  <link rel="stylesheet" href="web.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+  <main>
+    <div class="page">
+      <div class="sidebar">
+        <font size ="4"><h1>Dashboard</h1></font>
+        <div class="sidebar-img">
+          <img src="https://cdn2.vectorstock.com/i/1000x1000/20/61/simple-icon-to-represent-the-internet-of-things-vector-22612061.jpg" alt="">
+        </div>
+
+        <div class="menu">
+          <b class="cg">Menu</b>
+          <div class="Item Item-active">
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <font size ="5"><b>Dashboard</b></font>
+          </div>
+          <div class="Item" >
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-eject"></i>
+            </div>
+            <a href="About.html"><font size ="5"><b>About Project</b></font></a>
+          </div><div class="Item">
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <a href="Organizer.html"><font size ="5"><b>Group Members</b></font></a>
+          </div>
+
+        </div>
+        <div class="end">
+
+        </div>
+      </div>
+      <div class="content">
+        <div class="wrapper">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Type to search..">
+            <div class="autocom-box">
+              <!-- here list are inserted from javascript -->
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+         <script src="js/suggestions.js"></script> 
+         <script src="js/script.js"></script>
+         
+        <div class="content-space">
+          <font size ="3"><h1>Notifications</h1></font>
+          <div class="image">
+              <div class ="image-item image-one">
+                <div class="word">
+                  <h3>Zifisense</h3>
+                </div>
+              </div>
+              <div class="image-item image-two">
+                <div class="word2">
+                  <h3>ZETA Structure</h3>
+                </div>
+              </div>
+          </div>
+          <div class="content-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Vibration Sensor</th>
+                  <th>Temp Sensor</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>22.01.2023</td>
+                    <td>23.09 PM</td>
+                    <td>Normal</td>
+                    <td>30 Celsius</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>22.01.2023</td>
+                    <td>23.09 PM</td>
+                    <td>Normal</td>
+                    <td>30 Celsius</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  
+</body>
+</html>

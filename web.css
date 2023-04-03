@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    background-color: #1f1d2b;
+    display: flex;
+    color: white;
+}
+
+.sidebar {
+    width: 20%;
+    font-size:smaller;
+    padding: 40px;
+}
+.sidebar-img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 70px
+}
+.sidebar-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cg{
+    color:#808191;
+    font-size:large;
+}
+
+.content{
+    width: 80%;
+    background-color: #1f1d2b;
+    padding: 20px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+.Item{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    color:#808191
+    
+}
+
+.sidebar-icon{
+    margin-right: 40px;
+    width: 60px;
+    height: 60px;
+    background: #353340;
+    color: #808191;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Item-active{
+    color: white;
+}
+.Item-active .sidebar-icon{
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.end{
+    width: 100%;
+    height: 1.5px;
+    background-color: #393846;
+}
+.container{
+    max-width: 450px;
+    margin: 150px auto;
+}
+
+.wrapper{
+    max-width: 450px;
+    margin: 150px auto;
+}
+.wrapper .search-input{
+    background: #000000;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+.search-input input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+.search-input.active input{
+    border-radius: 5px 5px 0 0;
+}
+.search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+.search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+.search-input.active .autocom-box li{
+    display: block;
+}
+.autocom-box li:hover{
+    background: #efefef;
+}
+.search-input .icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #644bff;
+    cursor: pointer;
+}
+
+.content-space{
+    margin-top: 30px;
+}
+.image{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-item{
+    height: 100%;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-one{
+    width: 30%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87UPNkAObNS7CCPOVXG5OoFoHPRtdMNxS4g&usqp=CAU);
+}
+.image-two{
+    width: 65%;
+    margin-right:2% ;
+    background-image: url(https://www.ecoxplore.com/wp-content/uploads/2018/10/zeta-structure.jpg);
+}
+.word{
+    margin-top: 270px;
+    padding-left: 170px;
+}
+.word2{
+    margin-top: 270px;
+    padding-left: 440px;
+}
+.content-table{
+    width: 100%;
+    margin-top: 80px;
+}
+.content-table table{
+    width: 100%;
+    height: 30px;
+    font-size:larger;
+    box-sizing: border-box;
+    background-color:burlywood ;
+    color: black;
+}
+.main{
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px){
+    .page{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .word{
+        display: none;
+    }
+    .word2{
+        display: none;
+    }
+}
+
+
+   
