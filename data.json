@@ -1,29 +1,162 @@
 [
-{
-    "companyCode": "980f70347bc145c8a0adb4a34a76b264",
-    "deviceType": "485 Transceiver(D485ZT)",
-    "data": "02000101",
-    "deviceAlias": "RS485_2",
-    "parsedData": {
-        "dataAddressCode": null,
-        "addressCode": null,
-        "data": null,
-        "functionCode": null,
-        "retreatDuration": null,
-        "stopBit": null,
-        "dataBit": null,
-        "heartCycle": null,
-        "dataStatus": "illegal",
-        "completeData": "02000101",
-        "collectedParam": null,
-        "versionNumber": "",
-        "baudRate": null,
-        "parityBit": null,
-        "enableRetreat": null,
-        "registersNum": null,
-        "header": "02",
-        "addr": null,
-        "collectedResult": null
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "01004c",
+        "Info": "Illuminance : 7.60 lux",
+        "Uptime": "2023-04-03T08:19:19.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:19:19"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100eb47",
+        "Info": "Temp : 23.50 Celcius , Humid : 71 RH%",
+        "Uptime": "2023-04-03T08:19:14.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:19:14"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100ee44",
+        "Info": "Temp : 23.80 Celcius , Humid : 68 RH%",
+        "Uptime": "2023-04-03T08:18:59.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:18:59"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "01004e",
+        "Info": "Illuminance : 7.80 lux",
+        "Uptime": "2023-04-03T08:18:19.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:18:19"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100eb48",
+        "Info": "Temp : 23.50 Celcius , Humid : 72 RH%",
+        "Uptime": "2023-04-03T08:18:09.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:18:09"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100ee45",
+        "Info": "Temp : 23.80 Celcius , Humid : 69 RH%",
+        "Uptime": "2023-04-03T08:17:59.000Z",
+        "FormatUptime": "Monday 2023-04-03 15:17:59"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "010049",
+        "Info": "Illuminance : 7.30 lux",
+        "Uptime": "2023-04-03T07:58:18.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:58:18"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100e34f",
+        "Info": "Temp : 22.70 Celcius , Humid : 79 RH%",
+        "Uptime": "2023-04-03T07:58:13.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:58:13"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100e64c",
+        "Info": "Temp : 23.00 Celcius , Humid : 76 RH%",
+        "Uptime": "2023-04-03T07:57:58.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:57:58"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "010052",
+        "Info": "Illuminance : 8.20 lux",
+        "Uptime": "2023-04-03T07:57:18.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:57:18"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100e24f",
+        "Info": "Temp : 22.60 Celcius , Humid : 79 RH%",
+        "Uptime": "2023-04-03T07:57:13.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:57:13"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100e64b",
+        "Info": "Temp : 23.00 Celcius , Humid : 75 RH%",
+        "Uptime": "2023-04-03T07:56:58.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:56:58"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "010055",
+        "Info": "Illuminance : 8.50 lux",
+        "Uptime": "2023-04-03T07:56:18.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:56:18"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100e24c",
+        "Info": "Temp : 22.60 Celcius , Humid : 76 RH%",
+        "Uptime": "2023-04-03T07:56:13.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:56:13"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100e54a",
+        "Info": "Temp : 22.90 Celcius , Humid : 74 RH%",
+        "Uptime": "2023-04-03T07:55:58.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:55:58"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "010055",
+        "Info": "Illuminance : 8.50 lux",
+        "Uptime": "2023-04-03T07:55:23.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:55:23"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100e24b",
+        "Info": "Temp : 22.60 Celcius , Humid : 75 RH%",
+        "Uptime": "2023-04-03T07:55:13.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:55:13"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_1",
+        "Data": "0100e54a",
+        "Info": "Temp : 22.90 Celcius , Humid : 74 RH%",
+        "Uptime": "2023-04-03T07:54:57.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:54:57"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "Light",
+        "Data": "010057",
+        "Info": "Illuminance : 8.70 lux",
+        "Uptime": "2023-04-03T07:54:22.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:54:22"
+    },
+    {
+        "CompanyCode": "980f70347bc145c8a0adb4a34a76b264",
+        "DeviceType": "temp_humid_2",
+        "Data": "0100e24e",
+        "Info": "Temp : 22.60 Celcius , Humid : 78 RH%",
+        "Uptime": "2023-04-03T07:54:12.000Z",
+        "FormatUptime": "Monday 2023-04-03 14:54:12"
     }
-}
 ]

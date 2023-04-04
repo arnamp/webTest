@@ -2,7 +2,7 @@
 	
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\rich\Desktop\Writings
-	cd C:\website\public
+	cd C:\Users\Thanakrit\OneDrive - KMITL\Desktop\preject\preject scg
 	
 	::Initialize GitHub
 	git init
@@ -25,7 +25,7 @@
 	
 	::Wait 300 seconds until going to the start of the loop.
 	::Change as needed.
-	TIMEOUT 30
+	TIMEOUT 10
 	
 ::Restart from the top.	
 goto loop

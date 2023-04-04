@@ -1,0 +1,39 @@
+{
+    "companyCode": "980f70347bc145c8a0adb4a34a76b264",
+    "deviceType": "Light Sensor(OPZ1ZT)",
+    "data": "01004c",
+    "deviceAlias": "Light",
+    "parsedData": {
+        "clearAlarmThreshold": null,
+        "upperThreshold": null,
+        "illumination": {
+            "unit": "lux",
+            "rawValue": "7.6",
+            "name": "\u5149\u7167\u5ea6",
+            "nameEn": "\u5149\u7167\u5ea6",
+            "value": "7.6",
+            "nameJp": "\u5149\u7167\u5ea6"
+        },
+        "alarmCycle": null,
+        "heartCycle": null,
+        "dataStatus": "normal",
+        "completeData": "normal,\u5149\u7167\u5ea6: 7.6lux",
+        "retentionTime": null,
+        "versionNumber": "",
+        "alarmType": null,
+        "clearAlarmType": null,
+        "acquisitionCycle": null,
+        "header": "01",
+        "enableStatus": null,
+        "lowerThreshold": null
+    },
+    "dataDetail": "{\"clearAlarmThreshold\":null,\"upperThreshold\":null,\"illumination\":{\"unit\":\"lux\",\"rawValue\":\"7.6\",\"name\":\"\u5149\u7167\u5ea6\",\"nameEn\":\"\u5149\u7167\u5ea6\",\"value\":\"7.6\",\"nameJp\":\"\u5149\u7167\u5ea6\"},\"alarmCycle\":null,\"heartCycle\":null,\"dataStatus\":\"normal\",\"completeData\":\"normal,\u5149\u7167\u5ea6: 7.6lux\",\"retentionTime\":null,\"versionNumber\":\"\",\"alarmType\":null,\"clearAlarmType\":null,\"acquisitionCycle\":null,\"header\":\"01\",\"enableStatus\":null,\"lowerThreshold\":null}",
+    "pid": "",
+    "deviceCode": 40,
+    "deviceVersion": 2,
+    "deviceId": "4f031e27",
+    "upTime": 1680509959065,
+    "deviceaddr": null,
+    "accessKey": "",
+    "deviceMold": "ms"
+}
